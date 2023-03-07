@@ -1,6 +1,6 @@
 function checkText(){
     let text = document.getElementById("textBox").value;
-    let textValidate = /^[\u0900-\u097F .!<>,-_?/":;'{}[]\|`]*$/;
+    let textValidate = /^[\u0900-\u097F .!<>,-_?":;'{}[]|`]*$/;
 
     if (textValidate.test(text)){
         document.getElementById("message").style.color = "green";
